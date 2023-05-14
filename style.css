@@ -21,6 +21,7 @@ main{
     display: flex;
     margin-bottom: 50px;
     margin-left: 80px;
+    width: 90%;
 }
 
 /* Textarea*/
@@ -30,6 +31,8 @@ main{
     color: #0A3871;
     margin-top: 90px;
     text-transform: lowercase;
+    height: 200px;
+    resize: none;
 }
 ::placeholder{color: #0A3871;}
     .text-area:focus{outline: none;}
@@ -45,6 +48,11 @@ main{
     margin-top: 20px;
     padding-left: 20px;
     position: fixed;
+    width: 350px;
+    text-align: center;
+    resize: none;
+    height: 460px;
+
 }
 
 .mensaje:focus{
@@ -77,6 +85,7 @@ main{
     cursor: pointer;
     height: 67px;
     width: 328px;
+    margin: auto;
 }
 
 .btn-copiar{
@@ -94,4 +103,22 @@ main{
 .informacion{
     color: #495057;
     font-size: 18px;
+}
+
+footer{
+    width: 100%;
+    margin: 20px;
+    padding: 0px;
+}
+
+footer h5,p{
+    font-size: 15px;
+    text-align: center;
+    color: #495057;
+}
+
+.copy{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }

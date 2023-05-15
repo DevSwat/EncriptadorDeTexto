@@ -1,6 +1,5 @@
 const textArea = document.querySelector(".text-area");
 const mensaje = document.querySelector(".mensaje");
-const copy = document.getElementById("button__copiar");
 
 //función encriptar
 function btnEncriptar(){
@@ -46,11 +45,8 @@ function desencriptar(stringDesencriptado){
     return stringDesencriptado
 }
 
-
-
 function copiar(){
     var texto = document.getElementById("#mensaje");
     mensaje.select();
     document.execCommand("copy");
-    alert("Copiado!")
 }
